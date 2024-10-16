@@ -1,0 +1,3 @@
+../src/MadgwickAHRS.c:44:6:MadgwickAHRSupdate	192	static
+../src/MadgwickAHRS.c:143:6:MadgwickAHRSupdateIMU	120	static
+../src/MadgwickAHRS.c:215:7:invSqrt	32	static

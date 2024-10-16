@@ -1,0 +1,4 @@
+../src/drv_spi.c:14:6:spi1_Init	1
+../src/drv_spi.c:39:9:spi1_Transfer	1
+../src/drv_spi.c:51:6:spi1_CS_low	1
+../src/drv_spi.c:56:6:spi1_CS_high	1

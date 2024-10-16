@@ -1,0 +1,8 @@
+../src/util.c:4:6:num2str	40	static
+../src/util.c:35:14:str2num	32	static
+../src/util.c:51:6:reverse	32	static
+../src/util.c:64:5:intToStr	32	static
+../src/util.c:83:6:float2str	40	static
+../src/util.c:108:8:myPow	40	static
+../src/util.c:129:6:flush_ch	24	static
+../src/util.c:140:5:size_ch	24	static

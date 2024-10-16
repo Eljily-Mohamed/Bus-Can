@@ -1,0 +1,7 @@
+../src/hts221.c:70:9:hts221_whoAmI	1
+../src/hts221.c:79:6:hts221_activate	1
+../src/hts221.c:90:6:hts221_bduActivate	1
+../src/hts221.c:104:6:hts221_conf	1
+../src/hts221.c:110:6:hts221_storeCalibration	1
+../src/hts221.c:162:5:hts221_getTemperature	2
+../src/hts221.c:204:5:hts221_getHumidity	2

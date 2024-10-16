@@ -1,0 +1,12 @@
+../src/stm32f1xx_hal_msp.c:16:6:HAL_MspInit	8	static
+../src/stm32f1xx_hal_msp.c:31:6:HAL_MspDeInit	4	static
+../src/stm32f1xx_hal_msp.c:42:6:HAL_UARTCOM_MspInit	32	static
+../src/stm32f1xx_hal_msp.c:61:6:HAL_UARTDXLMspInit	40	static
+../src/stm32f1xx_hal_msp.c:141:6:HAL_CANBUS_MspInit	40	static
+../src/stm32f1xx_hal_msp.c:176:6:HAL_spi_MspInit	40	static
+../src/stm32f1xx_hal_msp.c:210:6:HAL_timer1_MspInit	40	static
+../src/stm32f1xx_hal_msp.c:229:6:HAL_tickTimer_MspInit	16	static
+../src/stm32f1xx_hal_msp.c:240:6:HAL_i2c1_MspInit	48	static
+../src/stm32f1xx_hal_msp.c:273:6:HAL_pushButton_MspInit	32	static
+../src/stm32f1xx_hal_msp.c:288:6:HAL_vl6180x_GPIO1_MspInit	32	static
+../src/stm32f1xx_hal_msp.c:304:6:HAL_GPIO_PA10_MspInit	32	static

@@ -1,0 +1,11 @@
+../src/mpu9250.c:24:6:mpu9250_InitMPU9250	8	static
+../src/mpu9250.c:43:6:mpu9250_InitAK8963	32	static
+../src/mpu9250.c:66:9:mpu9250_WhoAmI	16	static
+../src/mpu9250.c:75:9:mpu9250_MagWhoAmI	16	static
+../src/mpu9250.c:84:6:mpu9250_Step	40	static
+../src/mpu9250.c:136:6:mpu9250_ReadAccelData	24	static
+../src/mpu9250.c:147:6:mpu9250_ReadGyroData	24	static
+../src/mpu9250.c:158:6:mpu9250_ReadMagData	32	static
+../src/mpu9250.c:179:9:mpu9250_ReadTempData	16	static
+../src/mpu9250.c:188:6:mpu9250_ResetMPU9250	8	static
+../src/mpu9250.c:196:6:mpu9250_CalibrateMPU9250	64	static

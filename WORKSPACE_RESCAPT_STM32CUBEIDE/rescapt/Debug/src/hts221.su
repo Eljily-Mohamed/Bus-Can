@@ -1,0 +1,7 @@
+../src/hts221.c:70:9:hts221_whoAmI	16	static
+../src/hts221.c:79:6:hts221_activate	16	static
+../src/hts221.c:90:6:hts221_bduActivate	16	static
+../src/hts221.c:104:6:hts221_conf	4	static
+../src/hts221.c:110:6:hts221_storeCalibration	16	static
+../src/hts221.c:162:5:hts221_getTemperature	40	static
+../src/hts221.c:204:5:hts221_getHumidity	40	static

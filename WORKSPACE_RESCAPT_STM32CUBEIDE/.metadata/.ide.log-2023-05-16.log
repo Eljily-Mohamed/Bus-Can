@@ -1,0 +1,148 @@
+2022-06-01 16:11:38,440 [INFO] Activator:177 - 
+
+
+2022-06-01 16:11:38,442 [INFO] Activator:178 - !SESSION log4j initialized
+2022-06-01 16:11:38,909 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.699921140 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:11:38,912 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.131054420 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:11:39,008 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.1923409556 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:11:39,010 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.907862000 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:11:40,612 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.699921140 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:11:40,614 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.131054420 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:11:40,628 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.1923409556 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:11:40,629 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.907862000 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:11:41,655 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-06-01 16:12:11,274 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.699921140 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:12:11,275 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.131054420 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:12:11,290 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.1923409556 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:12:11,291 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.907862000 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:12:11,336 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.699921140 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:12:11,337 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.131054420 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:12:11,349 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.mcu.1923409556 uses a null category that is invalid in its context. The option was ignored.
+2022-06-01 16:12:11,350 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option fr.ac6.managedbuild.option.gnu.cross.board.907862000 uses a null category that is invalid in its context. The option was ignored.
+2022-08-25 10:18:33,729 [INFO] Activator:177 - 
+
+
+2022-08-25 10:18:33,731 [INFO] Activator:178 - !SESSION log4j initialized
+2022-08-25 10:18:57,723 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-09-01 08:45:13,276 [INFO] Activator:177 - 
+
+
+2022-09-01 08:45:13,279 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-01 08:45:18,146 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-09-02 11:41:22,833 [INFO] Activator:177 - 
+
+
+2022-09-02 11:41:22,835 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-02 11:41:27,856 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-09-09 09:55:03,079 [INFO] Activator:177 - 
+
+
+2022-09-09 09:55:03,081 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-09 09:55:07,659 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-09-09 14:36:27,983 [INFO] Activator:177 - 
+
+
+2022-09-09 14:36:27,986 [INFO] Activator:178 - !SESSION log4j initialized
+2022-09-09 14:36:32,478 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-09-09 17:29:26,171 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SWT SessionManagerDBus: Failed to UnregisterClient: GDBus.Error:org.xfce.SessionManager.Error.General: Client with id of '/org/xfce/SessionClients/org_eclipse_swt_Application' was not found
+2022-10-07 16:12:43,965 [INFO] Activator:177 - 
+
+
+2022-10-07 16:12:43,967 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-07 16:12:49,349 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-07 16:30:10,160 [INFO] Activator:177 - 
+
+
+2022-10-07 16:30:10,162 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-07 16:30:14,845 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-07 16:31:35,844 [INFO] RetryExec:97 - I/O exception (java.net.NoRouteToHostException) caught when processing request to {s}->https://download.eclipse.org:443: No route to host (Host unreachable)
+2022-10-07 16:31:35,847 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
+2022-10-07 16:32:43,722 [INFO] Activator:177 - 
+
+
+2022-10-07 16:32:43,725 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-07 16:32:53,571 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-10 08:54:32,362 [INFO] Activator:177 - 
+
+
+2022-10-10 08:54:32,364 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-10 08:54:36,787 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-14 16:36:10,695 [INFO] Activator:177 - 
+
+
+2022-10-14 16:36:10,697 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-14 16:36:16,013 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-17 09:15:02,149 [INFO] Activator:177 - 
+
+
+2022-10-17 09:15:02,151 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-17 09:15:06,725 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-17 10:21:13,166 [INFO] Activator:177 - 
+
+
+2022-10-17 10:21:13,168 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-17 10:21:18,152 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-10-17 13:35:40,139 [INFO] Activator:177 - 
+
+
+2022-10-17 13:35:40,140 [INFO] Activator:178 - !SESSION log4j initialized
+2022-10-17 13:35:44,746 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-11-07 10:01:34,192 [INFO] Activator:177 - 
+
+
+2022-11-07 10:01:34,194 [INFO] Activator:178 - !SESSION log4j initialized
+2022-11-07 10:01:38,670 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-11-07 15:24:11,702 [INFO] Activator:177 - 
+
+
+2022-11-07 15:24:11,704 [INFO] Activator:178 - !SESSION log4j initialized
+2022-11-07 15:24:16,008 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-12-14 16:10:23,308 [INFO] Activator:177 - 
+
+
+2022-12-14 16:10:23,309 [INFO] Activator:178 - !SESSION log4j initialized
+2022-12-14 16:10:50,132 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2022-12-14 16:10:50,133 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2022-12-14 16:10:50,133 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-05 09:29:24,434 [INFO] Activator:177 - 
+
+
+2023-01-05 09:29:24,435 [INFO] Activator:178 - !SESSION log4j initialized
+2023-01-05 09:29:51,048 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-05 09:29:51,048 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-05 09:29:51,048 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-01-24 14:26:29,824 [INFO] Activator:177 - 
+
+
+2023-01-24 14:26:29,825 [INFO] Activator:178 - !SESSION log4j initialized
+2023-01-24 14:26:57,560 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-01-24 14:26:57,561 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-01-24 14:26:57,561 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-03-15 16:53:06,994 [INFO] Activator:177 - 
+
+
+2023-03-15 16:53:06,996 [INFO] Activator:178 - !SESSION log4j initialized
+2023-03-15 16:53:34,066 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-03-15 16:53:34,067 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-03-15 16:53:34,067 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-03-24 11:30:07,621 [INFO] Activator:177 - 
+
+
+2023-03-24 11:30:07,622 [INFO] Activator:178 - !SESSION log4j initialized
+2023-03-24 11:30:31,119 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-03-24 11:30:31,120 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-03-24 11:30:31,120 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-03-31 10:28:48,377 [INFO] Activator:177 - 
+
+
+2023-03-31 10:28:48,378 [INFO] Activator:178 - !SESSION log4j initialized
+2023-03-31 10:29:13,882 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-03-31 10:29:13,884 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-03-31 10:29:13,884 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-05-16 11:08:13,153 [INFO] Activator:177 - 
+
+
+2023-05-16 11:08:13,154 [INFO] Activator:178 - !SESSION log4j initialized
+2023-05-16 11:08:39,414 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-05-16 11:08:39,416 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-05-16 11:08:39,416 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.

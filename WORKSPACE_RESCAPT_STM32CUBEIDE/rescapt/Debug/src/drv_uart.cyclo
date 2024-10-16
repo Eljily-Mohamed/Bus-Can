@@ -1,0 +1,9 @@
+../src/drv_uart.c:23:6:uart2_Init	1
+../src/drv_uart.c:39:6:uart3_Init	1
+../src/drv_uart.c:57:6:uart1_Init	1
+../src/drv_uart.c:75:6:sendFrame	1
+../src/drv_uart.c:84:6:uart_Write	1
+../src/drv_uart.c:92:5:put_char	1
+../src/drv_uart.c:101:6:HAL_UART_RxCpltCallback	2
+../src/drv_uart.c:120:6:put_string	2
+../src/drv_uart.c:134:6:term_printf	22

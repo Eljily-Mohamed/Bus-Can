@@ -1,0 +1,4 @@
+../src/lps22hb.c:41:9:lps22hb_whoAmI	1
+../src/lps22hb.c:50:6:lps22hb_setup	1
+../src/lps22hb.c:62:5:lps22hb_getPressure	1
+../src/lps22hb.c:82:5:lps22hb_getTemperature	1

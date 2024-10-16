@@ -1,0 +1,26 @@
+15:14:38 **** Incremental Build of configuration Debug for project rescapt ****
+make all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: implicit declaration of function 'uart1_Init'; did you mean 'uart3_Init'? [-Wimplicit-function-declaration]
+   74 |         uart1_Init();
+      |         ^~~~~~~~~~
+      |         uart3_Init
+arm-none-eabi-gcc -o "rescapt.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="rescapt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: rescapt.elf has a LOAD segment with RWX permissions
+Finished building target: rescapt.elf
+ 
+arm-none-eabi-size  rescapt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24488	     20	   2868	  27376	   6af0	rescapt.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S rescapt.elf  > "rescapt.list"
+Finished building: rescapt.list
+ 
+arm-none-eabi-objcopy  -O binary rescapt.elf  "rescapt.bin"
+Finished building: rescapt.bin
+ 
+
+15:14:40 Build Finished. 0 errors, 2 warnings. (took 1s.897ms)
+

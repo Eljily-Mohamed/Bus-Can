@@ -1,0 +1,11 @@
+../src/vl6180x/x-nucleo-6180xa1.c:22:7:XNUCLEO6180XA1_UserIntHandler	1
+../src/vl6180x/x-nucleo-6180xa1.c:28:6:XNUCLEO6180XA1_Init	1
+../src/vl6180x/x-nucleo-6180xa1.c:41:5:XNUCLEO6180XA1_EXTI_CallBackHandle	1
+../src/vl6180x/x-nucleo-6180xa1.c:53:13:_V2_SetChipEn	5
+../src/vl6180x/x-nucleo-6180xa1.c:65:6:XNUCLEO6180XA1_Reset	1
+../src/vl6180x/x-nucleo-6180xa1.c:70:5:XNUCLEO6180XA1_ResetId	1
+../src/vl6180x/x-nucleo-6180xa1.c:78:5:XNUCLEO6180XA1_GetSwitch	1
+../src/vl6180x/x-nucleo-6180xa1.c:84:5:_V2_GetSwicth	2
+../src/vl6180x/x-nucleo-6180xa1.c:101:6:XNUCLEO6180XA1_DisplayString	4
+../src/vl6180x/x-nucleo-6180xa1.c:117:14:_V2_Set7Segment	1
+../src/vl6180x/x-nucleo-6180xa1.c:129:13:_V2_DisplayOff	1

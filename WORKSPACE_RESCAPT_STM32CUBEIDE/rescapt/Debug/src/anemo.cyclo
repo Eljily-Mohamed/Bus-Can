@@ -1,0 +1,3 @@
+../src/anemo.c:9:6:anemo_Timer1Init	1
+../src/anemo.c:39:5:anemo_GetCount	1
+../src/anemo.c:44:5:anemo_ResetCount	1

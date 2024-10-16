@@ -1,0 +1,333 @@
+#include "main.h"
+//###################################################################
+#define VL6180X	0
+#define MPU9250	1
+#define DYN_ANEMO_PRESS 0
+//###################################################################
+
+//====================================================================
+//			CAN ACCEPTANCE FILTER
+//====================================================================
+#define USE_FILTER	1
+// Can accept until 4 Standard IDs
+#define ID_1	0x01
+#define ID_2	0x02
+#define ID_3	0x03
+#define ID_4	0x04
+//====================================================================
+extern void systemClock_Config(void);
+
+void (*rxCompleteCallback) (void);
+void can_callback(void);
+
+CAN_Message      rxMsg;
+CAN_Message      txMsg;
+long int        counter = 0;
+int vitesse;
+uint8_t* aTxBuffer[2];
+
+extern float magCalibration[3];
+
+void VL6180x_Init(void);
+void VL6180x_Step(void);
+
+int status;
+int new_switch_state;
+int switch_state = -1;
+
+#if MPU9250
+int16_t acc[3];
+int16_t gyr[3];
+#endif
+//====================================================================
+// >>>>>>>>>>>>>>>>>>>>>>>>>> MAIN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+//====================================================================
+int main(void)
+{
+	HAL_Init();
+	systemClock_Config();
+    SysTick_Config(HAL_RCC_GetHCLKFreq() / 1000); //SysTick end of count event each 1ms
+	uart2_Init();
+	uart3_Init();
+	i2c1_Init();
+
+#if DYN_ANEMO_PRESS
+    anemo_Timer1Init();
+#endif
+
+	HAL_Delay(1000); // Wait
+
+#if VL6180X
+    VL6180x_Init();
+#endif
+
+#if MPU9250
+    mpu9250_InitMPU9250();
+    mpu9250_CalibrateMPU9250();
+#if USE_MAGNETOMETER
+    mpu9250_InitAK8963(magCalibration);
+#endif
+    uint8_t response=0;
+	response =  mpu9250_WhoAmI();
+	//term_printf("%d",response);
+#endif
+
+
+    can_Init();
+    can_SetFreq(CAN_BAUDRATE); // CAN BAUDRATE : 500 MHz -- cf Inc/config.h
+#if USE_FILTER
+    can_Filter_list((ID_1<<21)|(ID_2<<5) , (ID_3<<21)|(ID_4<<5) , CANStandard, 0); // Accept until 4 Standard IDs
+#else
+    can_Filter_disable(); // Accept everybody
+#endif
+    can_IrqInit();
+    can_IrqSet(&can_callback);
+
+    // Décommenter pour utiliser ce Timer ; permet de déclencher une interruption toutes les N ms
+     tickTimer_Init(200); // period in ms
+
+
+
+    while (1) {
+
+#if DYN_ANEMO_PRESS
+   // TEST MOTEUR
+    		dxl_LED(1, LED_ON);
+    		HAL_Delay(100);
+    		dxl_LED(1, LED_OFF);
+    		HAL_Delay(100);
+    		dxl_torque(1, TORQUE_OFF);
+    		 dxl_setOperatingMode(1, VELOCITY_MODE);
+    		   dxl_torque(1, TORQUE_ON);
+    	   term_printf("moteur tourne avec speed = %d \n\r",vitesse);
+    		  dxl_setGoalVelocity(1, vitesse);
+    		   HAL_Delay(2000);
+
+
+
+#endif
+
+#if VL6180X
+    VL6180x_Step();
+
+    		if(switch_state == SWITCH_VAL_RANGING){
+        		    			VL6180x_RangeData_t range = get_range();
+        		    			txMsg.id=0x55;			// Identifiant du message à envoyer
+
+        		    			for(int i=0;i<7;i++)
+        		    			{
+        		    				txMsg.data[i]=(range.range_mm>>8*i);
+        		    				//term_printf("data[%d]=%d\n\r",i,txMsg.data[i]);
+        		    			}
+        		    			txMsg.data[7]= (uint8_t)251;
+        		    			txMsg.len=8;			// Nombre d'octets à envoyer
+        		    			txMsg.format=CANStandard;
+        		    			txMsg.type=CANData;
+        		    			can_Write(txMsg);
+
+        		    }else{
+        		    			VL6180x_AlsData_t als = get_als();
+        		    	    			txMsg.id=0x55;			// Identifiant du message à envoyer
+
+        		    	    			for(int i=0;i<7;i++)
+        		    	    			{
+        		    	    				txMsg.data[i]=(uint8_t)((Als.lux)>>(8*i));
+
+        		    	    				//term_printf("txMsg.data[%d] = %f\n\r",i,(uint32_t)txMsg.data[i]/10);
+        		    	    			}
+        		    	    			txMsg.data[7]= (uint8_t)250;
+
+        		    	    			txMsg.len=8;			// Nombre d'octets à envoyer
+        		    	    			txMsg.format=CANStandard;
+        		    	    			txMsg.type=CANData;
+        		    	    			can_Write(txMsg);
+
+        		    }
+#endif
+
+#if MPU9250
+    		mpu9250_Step();
+    		    mpu9250_ReadAccelData(acc);
+    		    mpu9250_ReadGyroData(gyr);
+    		    HAL_Delay(200);
+
+    		    txMsg.id=0x55;
+    		    				txMsg.data[0] = (acc[0] & 0xFF);
+    		    				txMsg.data[1] = (acc[0]>>8 & 0xFF);
+    		    				txMsg.data[2] = (acc[1] & 0xFF);
+    		    				txMsg.data[3] = (acc[1]>>8 & 0xFF);
+    		    				txMsg.data[4] = (acc[2] & 0xFF);
+    		    				txMsg.data[5] = (acc[2]>>8 & 0xFF);
+    		    				txMsg.data[6] = 0;
+    		    				txMsg.data[7] = 241; 				// acc response -> 241
+    		    				txMsg.len=8;
+    		    				txMsg.format=CANStandard;
+    		    				txMsg.type=CANData;
+
+    		    				can_Write(txMsg);
+
+    		    				txMsg.id=0x55;
+    		    				txMsg.data[0] = (gyr[0] & 0xFF);
+    		    				txMsg.data[1] = (gyr[0]>>8 & 0xFF);
+    		    				txMsg.data[2] = (gyr[1] & 0xFF);
+    		    				txMsg.data[3] = (gyr[1]>>8 & 0xFF);
+    		    				txMsg.data[4] = (gyr[2] & 0xFF);
+    		    				txMsg.data[5] = (gyr[2]>>8 & 0xFF);
+    		    				txMsg.data[6] = 0;
+    		    				txMsg.data[7] = 242; 				// gyr response -> 242
+    		    				txMsg.len=8;
+    		    				txMsg.format=CANStandard;
+    		    				txMsg.type=CANData;
+
+    		    				can_Write(txMsg);
+#endif
+
+    }
+	return 0;
+}
+
+
+//====================================================================
+//			CAN CALLBACK RECEPT
+//====================================================================
+
+void can_callback(void)
+{
+#if DYN_ANEMO_PRESS
+	CAN_Message msg_rcv;
+	can_Read(&msg_rcv);
+	vitesse = msg_rcv.data[0];
+#endif
+}
+//====================================================================
+//			TIMER CALLBACK PERIOD
+//====================================================================
+
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+#if DYN_ANEMO_PRESS
+	counter = anemo_GetCount();
+	term_printf("counter anemo = %d \n\r",counter);
+	anemo_ResetCount();
+
+	txMsg.id=0x55;
+	txMsg.data[0] = counter;
+	for(int i=1; i<7; i++){
+		txMsg.data[i] = 0;
+	}
+	txMsg.data[7] = 110;
+	txMsg.len=8;
+	txMsg.format=CANStandard;
+	txMsg.type=CANData;
+
+	can_Write(txMsg);
+#endif
+	// mpu9250_Step();
+}
+//====================================================================
+
+#if VL6180X
+void VL6180x_Init(void)
+{
+	uint8_t id;
+	State.mode = 1;
+
+    XNUCLEO6180XA1_Init();
+    HAL_Delay(500); // Wait
+    // RESET
+    XNUCLEO6180XA1_Reset(0);
+    HAL_Delay(10);
+    XNUCLEO6180XA1_Reset(1);
+    HAL_Delay(1);
+
+    HAL_Delay(10);
+    VL6180x_WaitDeviceBooted(theVL6180xDev);
+    id=VL6180x_Identification(theVL6180xDev);
+    term_printf("id=%d, should be 180 (0xB4) \n\r", id);
+    VL6180x_InitData(theVL6180xDev);
+
+    State.InitScale=VL6180x_UpscaleGetScaling(theVL6180xDev);
+    State.FilterEn=VL6180x_FilterGetState(theVL6180xDev);
+
+     // Enable Dmax calculation only if value is displayed (to save computation power)
+    VL6180x_DMaxSetState(theVL6180xDev, DMaxDispTime>0);
+
+    switch_state=-1 ; // force what read from switch to set new working mode
+    State.mode = AlrmStart;
+}
+//====================================================================
+void VL6180x_Step(void)
+{
+    DISP_ExecLoopBody();
+
+    new_switch_state = XNUCLEO6180XA1_GetSwitch();
+    if (new_switch_state != switch_state) {
+        switch_state=new_switch_state;
+        status = VL6180x_Prepare(theVL6180xDev);
+        // Increase convergence time to the max (this is because proximity config of API is used)
+        VL6180x_RangeSetMaxConvergenceTime(theVL6180xDev, 63);
+        if (status) {
+            AbortErr("ErIn");
+        }
+        else{
+            if (switch_state == SWITCH_VAL_RANGING) {
+                VL6180x_SetupGPIO1(theVL6180xDev, GPIOx_SELECT_GPIO_INTERRUPT_OUTPUT, INTR_POL_HIGH);
+                VL6180x_ClearAllInterrupt(theVL6180xDev);
+                State.ScaleSwapCnt=0;
+                DoScalingSwap( State.InitScale);
+            } else {
+                 State.mode = RunAlsPoll;
+                 InitAlsMode();
+            }
+        }
+    }
+
+    switch (State.mode) {
+    case RunRangePoll:
+        RangeState();
+        break;
+
+    case RunAlsPoll:
+        AlsState();
+        break;
+
+    case InitErr:
+        TimeStarted = g_TickCnt;
+        State.mode = WaitForReset;
+        break;
+
+    case AlrmStart:
+       GoToAlaramState();
+       break;
+
+    case AlrmRun:
+        AlarmState();
+        break;
+
+    case FromSwitch:
+        // force reading swicth as re-init selected mode
+        switch_state=!XNUCLEO6180XA1_GetSwitch();
+        break;
+
+    case ScaleSwap:
+
+        if (g_TickCnt - TimeStarted >= ScaleDispTime) {
+            State.mode = RunRangePoll;
+            TimeStarted=g_TickCnt; /* reset as used for --- to er display */
+        }
+        else
+        {
+        	DISP_ExecLoopBody();
+        }
+        break;
+
+    default: {
+    	 DISP_ExecLoopBody();
+          if (g_TickCnt - TimeStarted >= 5000) {
+              NVIC_SystemReset();
+          }
+    }
+    }
+}
+#endif
+//====================================================================
