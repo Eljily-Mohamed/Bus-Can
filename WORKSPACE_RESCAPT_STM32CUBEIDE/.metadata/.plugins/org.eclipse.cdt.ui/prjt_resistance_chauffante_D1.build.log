@@ -1,0 +1,59 @@
+20:52:29 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:108:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:108:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:109:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:109:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:109:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:114:33: warning: format '%f' expects argument of type 'double', but argument 3 has type 'uint8_t *' {aka 'unsigned char *'} [-Wformat=]
+  114 |     sprintf(msg, "consigne : %.2f  °C\r\n", ihmValue);
+      |                              ~~~^           ~~~~~~~~
+      |                                 |           |
+      |                                 double      uint8_t * {aka unsigned char *}
+      |                              %.2hhn
+../Core/Src/main.c:97:53: warning: unused variable 'tempIHM' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                     ^~~~~~~
+../Core/Src/main.c:97:33: warning: unused variable 'rc' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                 ^~
+../Core/Src/main.c:96:26: warning: 'duty' is used uninitialized [-Wuninitialized]
+   96 |   htim3.Instance -> CCR4 = duty;
+      |   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+../Core/Src/main.c:95:10: note: 'duty' was declared here
+   95 |   double duty; //variable rapport cyclique pwm
+      |          ^~~~
+arm-none-eabi-gcc -o "prjt_resistance_chauffante_D1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/mohamed/enib/projets/Projet-Instrumentation/Codage/Code_stm32/projet-ips_resistance_chauffante_D_1___/prjt_resistance_chauffante_D1/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="prjt_resistance_chauffante_D1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: prjt_resistance_chauffante_D1.elf has a LOAD segment with RWX permissions
+Finished building target: prjt_resistance_chauffante_D1.elf
+ 
+arm-none-eabi-size  prjt_resistance_chauffante_D1.elf 
+arm-none-eabi-objdump -h -S prjt_resistance_chauffante_D1.elf  > "prjt_resistance_chauffante_D1.list"
+   text	   data	    bss	    dec	    hex	filename
+  39156	    476	   2212	  41844	   a374	prjt_resistance_chauffante_D1.elf
+Finished building: default.size.stdout
+ 
+Finished building: prjt_resistance_chauffante_D1.list
+ 
+
+20:52:31 Build Finished. 0 errors, 9 warnings. (took 1s.992ms)
+

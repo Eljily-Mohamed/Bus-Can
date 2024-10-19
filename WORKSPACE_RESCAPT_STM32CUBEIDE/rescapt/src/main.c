@@ -2,9 +2,9 @@
 #include "MadgwickAHRS.h"
 
 //###################################################################
-#define VL6180X_PRESS_HUM_TEMP	0
+#define VL6180X_PRESS_HUM_TEMP	1
 #define MPU9250	0
-#define DYN_ANEMO 1
+#define DYN_ANEMO 0
 //###################################################################
 
 //====================================================================
@@ -281,7 +281,7 @@ void accelerometre_Callback(void) {
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
 {
 #if DYN_ANEMO
-	anymo_Callback();
+	//anymo_Callback();
 #endif
 }
 
@@ -318,6 +318,7 @@ void can_callback(void)
         	if(!mode_auto)
         		mode_auto_on = 0;
         }
+        anymo_Callback();
 #endif
     }
     else if (msg_rcv.id == ID_4) {

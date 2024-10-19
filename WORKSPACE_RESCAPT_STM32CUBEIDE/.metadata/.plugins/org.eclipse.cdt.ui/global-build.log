@@ -16259,3 +16259,1203 @@ Finished building: rescapt.list
 arm-none-eabi-objcopy  -O binary rescapt.elf  "rescapt.bin"
 Finished building: rescapt.bin
  
+11:30:16 **** Clean-only build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 clean 
+makefile:64: *** multiple target patterns.  Stop.
+"make -j4 clean" terminated with exit code 2. Build might be incomplete.
+11:30:18 **** Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f411retx.d" -MT"Core/Startup/startup_stm32f411retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f411retx.o" "../Core/Startup/startup_stm32f411retx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+../Core/Src/main.c: In function 'conversion_v_en_temperature':
+../Core/Src/main.c:133:25: warning: implicit declaration of function 'exp' [-Wimplicit-function-declaration]
+  133 |         return T = 20.7*exp(0.366*voltage);
+      |                         ^~~
+../Core/Src/main.c:22:1: note: include '<math.h>' or provide a declaration of 'exp'
+   21 | #include "main.h"
+  +++ |+#include <math.h>
+   22 | 
+../Core/Src/main.c:133:25: warning: incompatible implicit declaration of built-in function 'exp' [-Wbuiltin-declaration-mismatch]
+  133 |         return T = 20.7*exp(0.366*voltage);
+      |                         ^~~
+../Core/Src/main.c:133:25: note: include '<math.h>' or provide a declaration of 'exp'
+../Core/Src/main.c: In function 'conversion_T_en_V':
+../Core/Src/main.c:138:19: warning: implicit declaration of function 'log' [-Wimplicit-function-declaration]
+  138 |         return V =log(temperature/20.7)/0.366;
+      |                   ^~~
+../Core/Src/main.c:138:19: note: include '<math.h>' or provide a declaration of 'log'
+../Core/Src/main.c:138:19: warning: incompatible implicit declaration of built-in function 'log' [-Wbuiltin-declaration-mismatch]
+../Core/Src/main.c:138:19: note: include '<math.h>' or provide a declaration of 'log'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:206:22: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  206 |                      sprintf(msg, "\033[2J");
+      |                      ^~~~~~~
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+../Core/Src/main.c:206:22: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  206 |                      sprintf(msg, "\033[2J");
+      |                      ^~~~~~~
+../Core/Src/main.c:206:22: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:207:69: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  207 |                          HAL_UART_Transmit(&huart2, (uint8_t*) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                                     ^~~~~~
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include "main.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c:207:69: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  207 |                          HAL_UART_Transmit(&huart2, (uint8_t*) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                                     ^~~~~~
+../Core/Src/main.c:207:69: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:186:54: warning: unused variable 'rc' [-Wunused-variable]
+  186 |    double erreur=0,ui=0,up=0,temp=0,volt=0,courant=0,rc=0,temper=0,tempIHM=45;
+      |                                                      ^~
+../Core/Src/main.c:186:30: warning: unused variable 'temp' [-Wunused-variable]
+  186 |    double erreur=0,ui=0,up=0,temp=0,volt=0,courant=0,rc=0,temper=0,tempIHM=45;
+      |                              ^~~~
+../Core/Src/main.c:184:24: warning: 'duty' is used uninitialized [-Wuninitialized]
+  184 |    htim3.Instance->CCR4=duty;
+      |    ~~~~~~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:183:11: note: 'duty' was declared here
+  183 |    double duty;//variable rapport cyclique pwm
+      |           ^~~~
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f4xx.d" -MT"Core/Src/system_stm32f4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f4xx.o"
+arm-none-eabi-gcc -o "prjt_resistance_chauffante_D1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/mohamed/enib/s8/IPS/archive/asservissement_de_temperature_d_une_resistance_chauffante-master/Code_stm32/projet-ips_resistance_chauffante_D_1___/prjt_resistance_chauffante_D1/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="prjt_resistance_chauffante_D1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: prjt_resistance_chauffante_D1.elf has a LOAD segment with RWX permissions
+Finished building target: prjt_resistance_chauffante_D1.elf
+ 
+arm-none-eabi-size  prjt_resistance_chauffante_D1.elf 
+arm-none-eabi-objdump -h -S prjt_resistance_chauffante_D1.elf  > "prjt_resistance_chauffante_D1.list"
+   text	   data	    bss	    dec	    hex	filename
+  41272	    476	   2224	  43972	   abc4	prjt_resistance_chauffante_D1.elf
+Finished building: default.size.stdout
+ 
+Finished building: prjt_resistance_chauffante_D1.list
+ 
+12:05:05 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_hal_msp.d" -MT"Core/Src/stm32f4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f4xx_it.d" -MT"Core/Src/stm32f4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f4xx_it.o"
+../Core/Src/main.c: In function 'conversion_v_en_temperature':
+../Core/Src/main.c:133:25: warning: implicit declaration of function 'exp' [-Wimplicit-function-declaration]
+  133 |         return T = 20.7*exp(0.366*voltage);
+      |                         ^~~
+../Core/Src/main.c:22:1: note: include '<math.h>' or provide a declaration of 'exp'
+   21 | #include "main.h"
+  +++ |+#include <math.h>
+   22 | 
+../Core/Src/main.c:133:25: warning: incompatible implicit declaration of built-in function 'exp' [-Wbuiltin-declaration-mismatch]
+  133 |         return T = 20.7*exp(0.366*voltage);
+      |                         ^~~
+../Core/Src/main.c:133:25: note: include '<math.h>' or provide a declaration of 'exp'
+../Core/Src/main.c: In function 'conversion_T_en_V':
+../Core/Src/main.c:138:19: warning: implicit declaration of function 'log' [-Wimplicit-function-declaration]
+  138 |         return V =log(temperature/20.7)/0.366;
+      |                   ^~~
+../Core/Src/main.c:138:19: note: include '<math.h>' or provide a declaration of 'log'
+../Core/Src/main.c:138:19: warning: incompatible implicit declaration of built-in function 'log' [-Wbuiltin-declaration-mismatch]
+../Core/Src/main.c:138:19: note: include '<math.h>' or provide a declaration of 'log'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:206:22: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  206 |                      sprintf(msg, "\033[2J");
+      |                      ^~~~~~~
+../Core/Src/main.c:22:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   21 | #include "main.h"
+  +++ |+#include <stdio.h>
+   22 | 
+../Core/Src/main.c:206:22: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  206 |                      sprintf(msg, "\033[2J");
+      |                      ^~~~~~~
+../Core/Src/main.c:206:22: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:207:69: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  207 |                          HAL_UART_Transmit(&huart2, (uint8_t*) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                                     ^~~~~~
+../Core/Src/main.c:22:1: note: include '<string.h>' or provide a declaration of 'strlen'
+   21 | #include "main.h"
+  +++ |+#include <string.h>
+   22 | 
+../Core/Src/main.c:207:69: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  207 |                          HAL_UART_Transmit(&huart2, (uint8_t*) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                                     ^~~~~~
+../Core/Src/main.c:207:69: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:236:34: warning: unused variable 'duty' [-Wunused-variable]
+  236 |                              int duty = random_value;  // Assigner la valeur à duty
+      |                                  ^~~~
+../Core/Src/main.c:186:54: warning: unused variable 'rc' [-Wunused-variable]
+  186 |    double erreur=0,ui=0,up=0,temp=0,volt=0,courant=0,rc=0,temper=0,tempIHM=45;
+      |                                                      ^~
+../Core/Src/main.c:186:30: warning: unused variable 'temp' [-Wunused-variable]
+  186 |    double erreur=0,ui=0,up=0,temp=0,volt=0,courant=0,rc=0,temper=0,tempIHM=45;
+      |                              ^~~~
+../Core/Src/main.c:184:24: warning: 'duty' is used uninitialized [-Wuninitialized]
+  184 |    htim3.Instance->CCR4=duty;
+      |    ~~~~~~~~~~~~~~~~~~~~^~~~~
+../Core/Src/main.c:183:11: note: 'duty' was declared here
+  183 |    double duty;//variable rapport cyclique pwm
+      |           ^~~~
+arm-none-eabi-gcc -o "prjt_resistance_chauffante_D1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/mohamed/enib/s8/IPS/archive/asservissement_de_temperature_d_une_resistance_chauffante-master/Code_stm32/projet-ips_resistance_chauffante_D_1___/prjt_resistance_chauffante_D1/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="prjt_resistance_chauffante_D1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: /opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(libc_a-gettimeofdayr.o): in function `_gettimeofday_r':
+(.text._gettimeofday_r+0xe): warning: _gettimeofday is not implemented and will always fail
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: prjt_resistance_chauffante_D1.elf has a LOAD segment with RWX permissions
+Finished building target: prjt_resistance_chauffante_D1.elf
+ 
+arm-none-eabi-size  prjt_resistance_chauffante_D1.elf 
+arm-none-eabi-objdump -h -S prjt_resistance_chauffante_D1.elf  > "prjt_resistance_chauffante_D1.list"
+   text	   data	    bss	    dec	    hex	filename
+  41760	    476	   2224	  44460	   adac	prjt_resistance_chauffante_D1.elf
+Finished building: default.size.stdout
+ 
+Finished building: prjt_resistance_chauffante_D1.list
+ 
+12:55:30 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-size  prjt_resistance_chauffante_D1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41760	    476	   2224	  44460	   adac	prjt_resistance_chauffante_D1.elf
+Finished building: default.size.stdout
+ 
+12:58:04 **** Build of configuration Debug for project rescapt ****
+make all 
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -x assembler-with-cpp -MMD -MP -MF"startup/startup_stm32f103xb.d" -MT"startup/startup_stm32f103xb.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "startup/startup_stm32f103xb.o" "../startup/startup_stm32f103xb.s"
+arm-none-eabi-gcc "../src/vl6180x/vl6180x_api.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/vl6180x/vl6180x_api.d" -MT"src/vl6180x/vl6180x_api.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/vl6180x/vl6180x_api.o"
+arm-none-eabi-gcc "../src/vl6180x/vl6180x_lib.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/vl6180x/vl6180x_lib.d" -MT"src/vl6180x/vl6180x_lib.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/vl6180x/vl6180x_lib.o"
+../src/vl6180x/vl6180x_lib.c: In function 'AlsState':
+../src/vl6180x/vl6180x_lib.c:108:38: warning: '%02d' directive writing 2 bytes into a region of size between 0 and 7 [-Wformat-overflow=]
+  108 |                 sprintf(buffer, "L%d.%02d", (int) Als.lux / 1000, (int) (Als.lux % 1000) / 10); /* show LX.YY  X k Lux 2 digit*/
+      |                                      ^~~~
+../src/vl6180x/vl6180x_lib.c:108:33: note: directive argument in the range [0, 99]
+  108 |                 sprintf(buffer, "L%d.%02d", (int) Als.lux / 1000, (int) (Als.lux % 1000) / 10); /* show LX.YY  X k Lux 2 digit*/
+      |                                 ^~~~~~~~~~
+../src/vl6180x/vl6180x_lib.c:108:17: note: 'sprintf' output between 6 and 13 bytes into a destination of size 10
+  108 |                 sprintf(buffer, "L%d.%02d", (int) Als.lux / 1000, (int) (Als.lux % 1000) / 10); /* show LX.YY  X k Lux 2 digit*/
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc "../src/vl6180x/x-nucleo-6180xa1.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/vl6180x/x-nucleo-6180xa1.d" -MT"src/vl6180x/x-nucleo-6180xa1.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/vl6180x/x-nucleo-6180xa1.o"
+arm-none-eabi-gcc "../src/MadgwickAHRS.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/MadgwickAHRS.d" -MT"src/MadgwickAHRS.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/MadgwickAHRS.o"
+arm-none-eabi-gcc "../src/anemo.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/anemo.d" -MT"src/anemo.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/anemo.o"
+arm-none-eabi-gcc "../src/drv_can.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/drv_can.d" -MT"src/drv_can.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/drv_can.o"
+arm-none-eabi-gcc "../src/drv_i2c.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/drv_i2c.d" -MT"src/drv_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/drv_i2c.o"
+arm-none-eabi-gcc "../src/drv_spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/drv_spi.d" -MT"src/drv_spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/drv_spi.o"
+arm-none-eabi-gcc "../src/drv_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/drv_uart.d" -MT"src/drv_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/drv_uart.o"
+../src/drv_uart.c: In function 'term_printf':
+../src/drv_uart.c:146:13: warning: unused variable 'first' [-Wunused-variable]
+  146 |         int first=0;
+      |             ^~~~~
+../src/drv_uart.c:139:22: warning: unused variable 'u' [-Wunused-variable]
+  139 |         unsigned int u;
+      |                      ^
+arm-none-eabi-gcc "../src/dynamixel.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/dynamixel.d" -MT"src/dynamixel.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/dynamixel.o"
+arm-none-eabi-gcc "../src/hts221.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/hts221.d" -MT"src/hts221.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/hts221.o"
+../src/hts221.c:37: warning: "TEMP_OUT_L" redefined
+   37 | #define TEMP_OUT_L      0x2A
+      | 
+In file included from /home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc/main.h:23,
+                 from /home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc/hts221.h:11,
+                 from ../src/hts221.c:10:
+/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc/mpu9250.h:77: note: this is the location of the previous definition
+   77 | #define TEMP_OUT_L       0x42
+      | 
+../src/hts221.c:38: warning: "TEMP_OUT_H" redefined
+   38 | #define TEMP_OUT_H      0x2B
+      | 
+/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc/mpu9250.h:76: note: this is the location of the previous definition
+   76 | #define TEMP_OUT_H       0x41
+      | 
+arm-none-eabi-gcc "../src/lps22hb.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/lps22hb.d" -MT"src/lps22hb.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/lps22hb.o"
+../src/lps22hb.c:28: warning: "TEMP_OUT_L" redefined
+   28 | #define TEMP_OUT_L      0x2B
+      | 
+In file included from /home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc/main.h:23,
+                 from /home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc/drv_i2c.h:11,
+                 from /home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc/lps22hb.h:11,
+                 from ../src/lps22hb.c:1:
+/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc/mpu9250.h:77: note: this is the location of the previous definition
+   77 | #define TEMP_OUT_L       0x42
+      | 
+../src/lps22hb.c:29: warning: "TEMP_OUT_H" redefined
+   29 | #define TEMP_OUT_H      0x2C
+      | 
+/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc/mpu9250.h:76: note: this is the location of the previous definition
+   76 | #define TEMP_OUT_H       0x41
+      | 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: implicit declaration of function 'uart1_Init'; did you mean 'uart3_Init'? [-Wimplicit-function-declaration]
+   74 |         uart1_Init();
+      |         ^~~~~~~~~~
+      |         uart3_Init
+arm-none-eabi-gcc "../src/mpu9250.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/mpu9250.d" -MT"src/mpu9250.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/mpu9250.o"
+arm-none-eabi-gcc "../src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/stm32f1xx_hal_msp.d" -MT"src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/stm32f1xx_it.d" -MT"src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/syscalls.d" -MT"src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/syscalls.o"
+arm-none-eabi-gcc "../src/systemClock.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/systemClock.d" -MT"src/systemClock.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/systemClock.o"
+arm-none-eabi-gcc "../src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/system_stm32f1xx.d" -MT"src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/system_stm32f1xx.o"
+arm-none-eabi-gcc "../src/tickTimer.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/tickTimer.d" -MT"src/tickTimer.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/tickTimer.o"
+arm-none-eabi-gcc "../src/util.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/util.d" -MT"src/util.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/util.o"
+arm-none-eabi-gcc "../Utilities/STM32F1xx_Nucleo/stm32f1xx_nucleo.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Utilities/STM32F1xx_Nucleo/stm32f1xx_nucleo.d" -MT"Utilities/STM32F1xx_Nucleo/stm32f1xx_nucleo.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Utilities/STM32F1xx_Nucleo/stm32f1xx_nucleo.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal.d" -MT"HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_adc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_adc.d" -MT"HAL_Driver/Src/stm32f1xx_hal_adc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_adc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_adc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_adc_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_adc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_can.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_can.d" -MT"HAL_Driver/Src/stm32f1xx_hal_can.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_can.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_cec.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_cec.d" -MT"HAL_Driver/Src/stm32f1xx_hal_cec.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_cec.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_crc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_crc.d" -MT"HAL_Driver/Src/stm32f1xx_hal_crc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_crc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_dac.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_dac.d" -MT"HAL_Driver/Src/stm32f1xx_hal_dac.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_dac.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_dac_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_dac_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_dac_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_dac_ex.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_eth.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_eth.d" -MT"HAL_Driver/Src/stm32f1xx_hal_eth.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_eth.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_hcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_hcd.d" -MT"HAL_Driver/Src/stm32f1xx_hal_hcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_hcd.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_i2c.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_i2c.d" -MT"HAL_Driver/Src/stm32f1xx_hal_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_i2c.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_i2s.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_i2s.d" -MT"HAL_Driver/Src/stm32f1xx_hal_i2s.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_i2s.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_irda.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_irda.d" -MT"HAL_Driver/Src/stm32f1xx_hal_irda.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_irda.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_iwdg.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_iwdg.d" -MT"HAL_Driver/Src/stm32f1xx_hal_iwdg.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_iwdg.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_mmc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_mmc.d" -MT"HAL_Driver/Src/stm32f1xx_hal_mmc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_mmc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_nand.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_nand.d" -MT"HAL_Driver/Src/stm32f1xx_hal_nand.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_nand.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_nor.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_nor.d" -MT"HAL_Driver/Src/stm32f1xx_hal_nor.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_nor.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_pccard.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_pccard.d" -MT"HAL_Driver/Src/stm32f1xx_hal_pccard.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_pccard.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_pcd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_pcd.d" -MT"HAL_Driver/Src/stm32f1xx_hal_pcd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_pcd.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_pcd_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_pcd_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_pcd_ex.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_rtc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_rtc.d" -MT"HAL_Driver/Src/stm32f1xx_hal_rtc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_rtc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_rtc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_rtc_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_rtc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_rtc_ex.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_sd.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_sd.d" -MT"HAL_Driver/Src/stm32f1xx_hal_sd.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_sd.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_smartcard.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_smartcard.d" -MT"HAL_Driver/Src/stm32f1xx_hal_smartcard.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_smartcard.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_spi.d" -MT"HAL_Driver/Src/stm32f1xx_hal_spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_spi.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_spi_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_spi_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_spi_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_spi_ex.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_sram.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_sram.d" -MT"HAL_Driver/Src/stm32f1xx_hal_sram.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_sram.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_usart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_usart.d" -MT"HAL_Driver/Src/stm32f1xx_hal_usart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_usart.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_hal_wwdg.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_hal_wwdg.d" -MT"HAL_Driver/Src/stm32f1xx_hal_wwdg.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_hal_wwdg.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_adc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_adc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_adc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_adc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_crc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_crc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_crc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_crc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_dac.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_dac.d" -MT"HAL_Driver/Src/stm32f1xx_ll_dac.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_dac.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_dma.d" -MT"HAL_Driver/Src/stm32f1xx_ll_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_dma.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_exti.d" -MT"HAL_Driver/Src/stm32f1xx_ll_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_exti.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_fsmc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_fsmc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_fsmc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_fsmc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_gpio.d" -MT"HAL_Driver/Src/stm32f1xx_ll_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_gpio.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_i2c.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_i2c.d" -MT"HAL_Driver/Src/stm32f1xx_ll_i2c.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_i2c.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_pwr.d" -MT"HAL_Driver/Src/stm32f1xx_ll_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_pwr.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_rcc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_rcc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_rtc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_rtc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_rtc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_rtc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_sdmmc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_sdmmc.d" -MT"HAL_Driver/Src/stm32f1xx_ll_sdmmc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_sdmmc.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_spi.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_spi.d" -MT"HAL_Driver/Src/stm32f1xx_ll_spi.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_spi.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_tim.d" -MT"HAL_Driver/Src/stm32f1xx_ll_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_tim.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_usart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_usart.d" -MT"HAL_Driver/Src/stm32f1xx_ll_usart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_usart.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_usb.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_usb.d" -MT"HAL_Driver/Src/stm32f1xx_ll_usb.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_usb.o"
+arm-none-eabi-gcc "../HAL_Driver/Src/stm32f1xx_ll_utils.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"HAL_Driver/Src/stm32f1xx_ll_utils.d" -MT"HAL_Driver/Src/stm32f1xx_ll_utils.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "HAL_Driver/Src/stm32f1xx_ll_utils.o"
+arm-none-eabi-gcc -o "rescapt.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="rescapt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: rescapt.elf has a LOAD segment with RWX permissions
+Finished building target: rescapt.elf
+ 
+arm-none-eabi-size  rescapt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24488	     20	   2868	  27376	   6af0	rescapt.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S rescapt.elf  > "rescapt.list"
+Finished building: rescapt.list
+ 
+arm-none-eabi-objcopy  -O binary rescapt.elf  "rescapt.bin"
+Finished building: rescapt.bin
+ 
+13:01:17 **** Incremental Build of configuration Debug for project rescapt ****
+make all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: implicit declaration of function 'uart1_Init'; did you mean 'uart3_Init'? [-Wimplicit-function-declaration]
+   74 |         uart1_Init();
+      |         ^~~~~~~~~~
+      |         uart3_Init
+../src/main.c:93:10: warning: implicit declaration of function 'lps22hb_whoAmI' [-Wimplicit-function-declaration]
+   93 |     id = lps22hb_whoAmI();
+      |          ^~~~~~~~~~~~~~
+../src/main.c:94:9: warning: implicit declaration of function 'lps22hb_setup' [-Wimplicit-function-declaration]
+   94 |         lps22hb_setup();
+      |         ^~~~~~~~~~~~~
+../src/main.c:95:9: warning: implicit declaration of function 'hts221_activate' [-Wimplicit-function-declaration]
+   95 |         hts221_activate();
+      |         ^~~~~~~~~~~~~~~
+../src/main.c:96:14: warning: implicit declaration of function 'hts221_whoAmI' [-Wimplicit-function-declaration]
+   96 |         id = hts221_whoAmI();
+      |              ^~~~~~~~~~~~~
+../src/main.c:97:9: warning: implicit declaration of function 'hts221_storeCalibration' [-Wimplicit-function-declaration]
+   97 |         hts221_storeCalibration();
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'rangeLuxTempHum_Callback':
+../src/main.c:165:17: warning: implicit declaration of function 'lps22hb_getPressure' [-Wimplicit-function-declaration]
+  165 |     uint8_t i = lps22hb_getPressure(&pres_value);
+      |                 ^~~~~~~~~~~~~~~~~~~
+../src/main.c:170:9: warning: implicit declaration of function 'hts221_getTemperature' [-Wimplicit-function-declaration]
+  170 |     i = hts221_getTemperature(&temp_value);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:175:9: warning: implicit declaration of function 'hts221_getHumidity' [-Wimplicit-function-declaration]
+  175 |     i = hts221_getHumidity(&humi_value);
+      |         ^~~~~~~~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:33:12: warning: 'mode_auto_on' defined but not used [-Wunused-variable]
+   33 | static int mode_auto_on = 0;
+      |            ^~~~~~~~~~~~
+../src/main.c:32:12: warning: 'mode_auto' defined but not used [-Wunused-variable]
+   32 | static int mode_auto;
+      |            ^~~~~~~~~
+../src/main.c:31:12: warning: 'motor_on' defined but not used [-Wunused-variable]
+   31 | static int motor_on;
+      |            ^~~~~~~~
+../src/main.c:30:12: warning: 'vitesse' defined but not used [-Wunused-variable]
+   30 | static int vitesse;
+      |            ^~~~~~~
+arm-none-eabi-gcc -o "rescapt.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="rescapt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: rescapt.elf has a LOAD segment with RWX permissions
+Finished building target: rescapt.elf
+ 
+arm-none-eabi-size  rescapt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  49724	    368	   3272	  53364	   d074	rescapt.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S rescapt.elf  > "rescapt.list"
+Finished building: rescapt.list
+ 
+arm-none-eabi-objcopy  -O binary rescapt.elf  "rescapt.bin"
+Finished building: rescapt.bin
+ 
+13:01:51 **** Incremental Build of configuration Debug for project rescapt ****
+make all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: implicit declaration of function 'uart1_Init'; did you mean 'uart3_Init'? [-Wimplicit-function-declaration]
+   74 |         uart1_Init();
+      |         ^~~~~~~~~~
+      |         uart3_Init
+../src/main.c: At top level:
+../src/main.c:33:12: warning: 'mode_auto_on' defined but not used [-Wunused-variable]
+   33 | static int mode_auto_on = 0;
+      |            ^~~~~~~~~~~~
+../src/main.c:32:12: warning: 'mode_auto' defined but not used [-Wunused-variable]
+   32 | static int mode_auto;
+      |            ^~~~~~~~~
+../src/main.c:31:12: warning: 'motor_on' defined but not used [-Wunused-variable]
+   31 | static int motor_on;
+      |            ^~~~~~~~
+../src/main.c:30:12: warning: 'vitesse' defined but not used [-Wunused-variable]
+   30 | static int vitesse;
+      |            ^~~~~~~
+arm-none-eabi-gcc -o "rescapt.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="rescapt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: rescapt.elf has a LOAD segment with RWX permissions
+Finished building target: rescapt.elf
+ 
+arm-none-eabi-size  rescapt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37676	    144	   3264	  41084	   a07c	rescapt.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S rescapt.elf  > "rescapt.list"
+Finished building: rescapt.list
+ 
+arm-none-eabi-objcopy  -O binary rescapt.elf  "rescapt.bin"
+Finished building: rescapt.bin
+ 
+13:02:12 **** Incremental Build of configuration Debug for project rescapt ****
+make all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: implicit declaration of function 'uart1_Init'; did you mean 'uart3_Init'? [-Wimplicit-function-declaration]
+   74 |         uart1_Init();
+      |         ^~~~~~~~~~
+      |         uart3_Init
+../src/main.c:93:10: warning: implicit declaration of function 'lps22hb_whoAmI' [-Wimplicit-function-declaration]
+   93 |     id = lps22hb_whoAmI();
+      |          ^~~~~~~~~~~~~~
+../src/main.c:94:9: warning: implicit declaration of function 'lps22hb_setup' [-Wimplicit-function-declaration]
+   94 |         lps22hb_setup();
+      |         ^~~~~~~~~~~~~
+../src/main.c:95:9: warning: implicit declaration of function 'hts221_activate' [-Wimplicit-function-declaration]
+   95 |         hts221_activate();
+      |         ^~~~~~~~~~~~~~~
+../src/main.c:96:14: warning: implicit declaration of function 'hts221_whoAmI' [-Wimplicit-function-declaration]
+   96 |         id = hts221_whoAmI();
+      |              ^~~~~~~~~~~~~
+../src/main.c:97:9: warning: implicit declaration of function 'hts221_storeCalibration' [-Wimplicit-function-declaration]
+   97 |         hts221_storeCalibration();
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'rangeLuxTempHum_Callback':
+../src/main.c:165:17: warning: implicit declaration of function 'lps22hb_getPressure' [-Wimplicit-function-declaration]
+  165 |     uint8_t i = lps22hb_getPressure(&pres_value);
+      |                 ^~~~~~~~~~~~~~~~~~~
+../src/main.c:170:9: warning: implicit declaration of function 'hts221_getTemperature' [-Wimplicit-function-declaration]
+  170 |     i = hts221_getTemperature(&temp_value);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:175:9: warning: implicit declaration of function 'hts221_getHumidity' [-Wimplicit-function-declaration]
+  175 |     i = hts221_getHumidity(&humi_value);
+      |         ^~~~~~~~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:33:12: warning: 'mode_auto_on' defined but not used [-Wunused-variable]
+   33 | static int mode_auto_on = 0;
+      |            ^~~~~~~~~~~~
+../src/main.c:32:12: warning: 'mode_auto' defined but not used [-Wunused-variable]
+   32 | static int mode_auto;
+      |            ^~~~~~~~~
+../src/main.c:31:12: warning: 'motor_on' defined but not used [-Wunused-variable]
+   31 | static int motor_on;
+      |            ^~~~~~~~
+../src/main.c:30:12: warning: 'vitesse' defined but not used [-Wunused-variable]
+   30 | static int vitesse;
+      |            ^~~~~~~
+arm-none-eabi-gcc -o "rescapt.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="rescapt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: rescapt.elf has a LOAD segment with RWX permissions
+Finished building target: rescapt.elf
+ 
+arm-none-eabi-size  rescapt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  49724	    368	   3272	  53364	   d074	rescapt.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S rescapt.elf  > "rescapt.list"
+Finished building: rescapt.list
+ 
+arm-none-eabi-objcopy  -O binary rescapt.elf  "rescapt.bin"
+Finished building: rescapt.bin
+ 
+13:02:46 **** Incremental Build of configuration Debug for project rescapt ****
+make all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: implicit declaration of function 'uart1_Init'; did you mean 'uart3_Init'? [-Wimplicit-function-declaration]
+   74 |         uart1_Init();
+      |         ^~~~~~~~~~
+      |         uart3_Init
+../src/main.c: At top level:
+../src/main.c:33:12: warning: 'mode_auto_on' defined but not used [-Wunused-variable]
+   33 | static int mode_auto_on = 0;
+      |            ^~~~~~~~~~~~
+../src/main.c:32:12: warning: 'mode_auto' defined but not used [-Wunused-variable]
+   32 | static int mode_auto;
+      |            ^~~~~~~~~
+../src/main.c:31:12: warning: 'motor_on' defined but not used [-Wunused-variable]
+   31 | static int motor_on;
+      |            ^~~~~~~~
+../src/main.c:30:12: warning: 'vitesse' defined but not used [-Wunused-variable]
+   30 | static int vitesse;
+      |            ^~~~~~~
+arm-none-eabi-gcc -o "rescapt.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="rescapt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: rescapt.elf has a LOAD segment with RWX permissions
+Finished building target: rescapt.elf
+ 
+arm-none-eabi-size  rescapt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37676	    144	   3264	  41084	   a07c	rescapt.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S rescapt.elf  > "rescapt.list"
+Finished building: rescapt.list
+ 
+arm-none-eabi-objcopy  -O binary rescapt.elf  "rescapt.bin"
+Finished building: rescapt.bin
+ 
+13:12:16 **** Incremental Build of configuration Debug for project rescapt ****
+make all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: implicit declaration of function 'uart1_Init'; did you mean 'uart3_Init'? [-Wimplicit-function-declaration]
+   74 |         uart1_Init();
+      |         ^~~~~~~~~~
+      |         uart3_Init
+arm-none-eabi-gcc -o "rescapt.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="rescapt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: rescapt.elf has a LOAD segment with RWX permissions
+Finished building target: rescapt.elf
+ 
+arm-none-eabi-size  rescapt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24492	     20	   2868	  27380	   6af4	rescapt.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S rescapt.elf  > "rescapt.list"
+Finished building: rescapt.list
+ 
+arm-none-eabi-objcopy  -O binary rescapt.elf  "rescapt.bin"
+Finished building: rescapt.bin
+ 
+13:13:06 **** Incremental Build of configuration Debug for project rescapt ****
+make all 
+arm-none-eabi-size  rescapt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24492	     20	   2868	  27380	   6af4	rescapt.elf
+Finished building: default.size.stdout
+ 
+13:13:15 **** Incremental Build of configuration Debug for project rescapt ****
+make all 
+arm-none-eabi-size  rescapt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  24492	     20	   2868	  27380	   6af4	rescapt.elf
+Finished building: default.size.stdout
+ 
+13:13:53 **** Incremental Build of configuration Debug for project rescapt ****
+make all 
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
+../src/main.c: In function 'main':
+../src/main.c:74:9: warning: implicit declaration of function 'uart1_Init'; did you mean 'uart3_Init'? [-Wimplicit-function-declaration]
+   74 |         uart1_Init();
+      |         ^~~~~~~~~~
+      |         uart3_Init
+../src/main.c:93:10: warning: implicit declaration of function 'lps22hb_whoAmI' [-Wimplicit-function-declaration]
+   93 |     id = lps22hb_whoAmI();
+      |          ^~~~~~~~~~~~~~
+../src/main.c:94:9: warning: implicit declaration of function 'lps22hb_setup' [-Wimplicit-function-declaration]
+   94 |         lps22hb_setup();
+      |         ^~~~~~~~~~~~~
+../src/main.c:95:9: warning: implicit declaration of function 'hts221_activate' [-Wimplicit-function-declaration]
+   95 |         hts221_activate();
+      |         ^~~~~~~~~~~~~~~
+../src/main.c:96:14: warning: implicit declaration of function 'hts221_whoAmI' [-Wimplicit-function-declaration]
+   96 |         id = hts221_whoAmI();
+      |              ^~~~~~~~~~~~~
+../src/main.c:97:9: warning: implicit declaration of function 'hts221_storeCalibration' [-Wimplicit-function-declaration]
+   97 |         hts221_storeCalibration();
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'rangeLuxTempHum_Callback':
+../src/main.c:165:17: warning: implicit declaration of function 'lps22hb_getPressure' [-Wimplicit-function-declaration]
+  165 |     uint8_t i = lps22hb_getPressure(&pres_value);
+      |                 ^~~~~~~~~~~~~~~~~~~
+../src/main.c:170:9: warning: implicit declaration of function 'hts221_getTemperature' [-Wimplicit-function-declaration]
+  170 |     i = hts221_getTemperature(&temp_value);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:175:9: warning: implicit declaration of function 'hts221_getHumidity' [-Wimplicit-function-declaration]
+  175 |     i = hts221_getHumidity(&humi_value);
+      |         ^~~~~~~~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:33:12: warning: 'mode_auto_on' defined but not used [-Wunused-variable]
+   33 | static int mode_auto_on = 0;
+      |            ^~~~~~~~~~~~
+../src/main.c:32:12: warning: 'mode_auto' defined but not used [-Wunused-variable]
+   32 | static int mode_auto;
+      |            ^~~~~~~~~
+../src/main.c:31:12: warning: 'motor_on' defined but not used [-Wunused-variable]
+   31 | static int motor_on;
+      |            ^~~~~~~~
+../src/main.c:30:12: warning: 'vitesse' defined but not used [-Wunused-variable]
+   30 | static int vitesse;
+      |            ^~~~~~~
+arm-none-eabi-gcc -o "rescapt.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="rescapt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: rescapt.elf has a LOAD segment with RWX permissions
+Finished building target: rescapt.elf
+ 
+arm-none-eabi-size  rescapt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  49724	    368	   3272	  53364	   d074	rescapt.elf
+Finished building: default.size.stdout
+ 
+arm-none-eabi-objdump -h -S rescapt.elf  > "rescapt.list"
+Finished building: rescapt.list
+ 
+arm-none-eabi-objcopy  -O binary rescapt.elf  "rescapt.bin"
+Finished building: rescapt.bin
+ 
+20:36:37 **** Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'conversion_V_en_temperature':
+../Core/Src/main.c:78:49: error: expected ';' before ')' token
+   78 |   delta = ((RC * (4 * (adc + ES)) / (ES)) / R25));
+      |                                                 ^
+      |                                                 ;
+../Core/Src/main.c:78:49: error: expected statement before ')' token
+../Core/Src/main.c:79:1: error: 'temp' undeclared (first use in this function)
+   79 | temp = temperature_base + ((coeff_data[v - 1] - delta) / ((coeff_data[v - 1] - coeff_data[v]) / 5));
+      | ^~~~
+../Core/Src/main.c:79:1: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:14: warning: implicit declaration of function 'conversion_v_en_temperature'; did you mean 'conversion_V_en_temperature'? [-Wimplicit-function-declaration]
+  108 |     temper = conversion_v_en_temperature(volt);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              conversion_V_en_temperature
+../Core/Src/main.c:110:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  110 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:110:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  110 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:110:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:111:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  111 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:111:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  111 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:111:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:99:46: warning: unused variable 'tempIHM' [-Wunused-variable]
+   99 |   double  volt = 0, courant = 0, temper = 0, tempIHM = 45;
+      |                                              ^~~~~~~
+../Core/Src/main.c:98:9: warning: unused variable 'puissance' [-Wunused-variable]
+   98 |   float puissance = 0;
+      |         ^~~~~~~~~
+../Core/Src/main.c: In function 'conversion_V_en_temperature':
+../Core/Src/main.c:81:1: warning: control reaches end of non-void function [-Wreturn-type]
+   81 | }
+      | ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:38:28 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'conversion_V_en_temperature':
+../Core/Src/main.c:77:49: error: expected ';' before ')' token
+   77 |   delta = ((RC * (4 * (adc + ES)) / (ES)) / R25));
+      |                                                 ^
+      |                                                 ;
+../Core/Src/main.c:77:49: error: expected statement before ')' token
+../Core/Src/main.c:78:3: error: 'temp' undeclared (first use in this function)
+   78 |   temp = temperature_base + ((coeff_data[v - 1] - delta) / ((coeff_data[v - 1] - coeff_data[v]) / 5));
+      |   ^~~~
+../Core/Src/main.c:78:3: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:14: warning: implicit declaration of function 'conversion_v_en_temperature'; did you mean 'conversion_V_en_temperature'? [-Wimplicit-function-declaration]
+  107 |     temper = conversion_v_en_temperature(volt);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              conversion_V_en_temperature
+../Core/Src/main.c:109:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  109 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:109:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  109 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:109:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:110:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  110 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:110:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  110 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:110:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:98:63: warning: unused variable 'tempIHM' [-Wunused-variable]
+   98 |   double temp = 0, volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                               ^~~~~~~
+../Core/Src/main.c:98:43: warning: unused variable 'rc' [-Wunused-variable]
+   98 |   double temp = 0, volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                           ^~
+../Core/Src/main.c:98:10: warning: unused variable 'temp' [-Wunused-variable]
+   98 |   double temp = 0, volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |          ^~~~
+../Core/Src/main.c:97:9: warning: unused variable 'puissance' [-Wunused-variable]
+   97 |   float puissance = 0;
+      |         ^~~~~~~~~
+../Core/Src/main.c: In function 'conversion_V_en_temperature':
+../Core/Src/main.c:80:1: warning: control reaches end of non-void function [-Wreturn-type]
+   80 | }
+      | ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:40:03 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'conversion_V_en_temperature':
+../Core/Src/main.c:77:49: error: expected ';' before ')' token
+   77 |   delta = ((RC * (4 * (adc + ES)) / (ES)) / R25));
+      |                                                 ^
+      |                                                 ;
+../Core/Src/main.c:77:49: error: expected statement before ')' token
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:106:14: warning: implicit declaration of function 'conversion_v_en_temperature'; did you mean 'conversion_V_en_temperature'? [-Wimplicit-function-declaration]
+  106 |     temper = conversion_v_en_temperature(volt);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              conversion_V_en_temperature
+../Core/Src/main.c:108:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:108:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:108:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:109:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:109:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:109:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:97:53: warning: unused variable 'tempIHM' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                     ^~~~~~~
+../Core/Src/main.c:97:33: warning: unused variable 'rc' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                 ^~
+../Core/Src/main.c:96:9: warning: unused variable 'puissance' [-Wunused-variable]
+   96 |   float puissance = 0;
+      |         ^~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:41:25 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:105:14: warning: implicit declaration of function 'conversion_v_en_temperature'; did you mean 'conversion_V_en_temperature'? [-Wimplicit-function-declaration]
+  105 |     temper = conversion_v_en_temperature(volt);
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |              conversion_V_en_temperature
+../Core/Src/main.c:107:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  107 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:107:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  107 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:107:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:108:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  108 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:108:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  108 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:108:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:96:53: warning: unused variable 'tempIHM' [-Wunused-variable]
+   96 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                     ^~~~~~~
+../Core/Src/main.c:96:33: warning: unused variable 'rc' [-Wunused-variable]
+   96 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                 ^~
+../Core/Src/main.c:95:26: warning: 'duty' is used uninitialized [-Wuninitialized]
+   95 |   htim3.Instance -> CCR4 = duty;
+      |   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+../Core/Src/main.c:94:10: note: 'duty' was declared here
+   94 |   double duty; //variable rapport cyclique pwm
+      |          ^~~~
+arm-none-eabi-gcc -o "prjt_resistance_chauffante_D1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/mohamed/enib/projets/Projet-Instrumentation/Codage/Code_stm32/projet-ips_resistance_chauffante_D_1___/prjt_resistance_chauffante_D1/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="prjt_resistance_chauffante_D1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: prjt_resistance_chauffante_D1.elf has a LOAD segment with RWX permissions
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `main':
+/home/mohamed/enib/projets/Projet-Instrumentation/Codage/Code_stm32/projet-ips_resistance_chauffante_D_1___/prjt_resistance_chauffante_D1/Debug/../Core/Src/main.c:105: undefined reference to `conversion_v_en_temperature'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:64: prjt_resistance_chauffante_D1.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:41:58 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  107 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:107:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  107 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:107:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:108:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  108 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:108:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  108 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:108:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:96:53: warning: unused variable 'tempIHM' [-Wunused-variable]
+   96 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                     ^~~~~~~
+../Core/Src/main.c:96:33: warning: unused variable 'rc' [-Wunused-variable]
+   96 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                 ^~
+../Core/Src/main.c:95:26: warning: 'duty' is used uninitialized [-Wuninitialized]
+   95 |   htim3.Instance -> CCR4 = duty;
+      |   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+../Core/Src/main.c:94:10: note: 'duty' was declared here
+   94 |   double duty; //variable rapport cyclique pwm
+      |          ^~~~
+arm-none-eabi-gcc -o "prjt_resistance_chauffante_D1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/mohamed/enib/projets/Projet-Instrumentation/Codage/Code_stm32/projet-ips_resistance_chauffante_D_1___/prjt_resistance_chauffante_D1/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="prjt_resistance_chauffante_D1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: prjt_resistance_chauffante_D1.elf has a LOAD segment with RWX permissions
+Finished building target: prjt_resistance_chauffante_D1.elf
+ 
+arm-none-eabi-size  prjt_resistance_chauffante_D1.elf 
+arm-none-eabi-objdump -h -S prjt_resistance_chauffante_D1.elf  > "prjt_resistance_chauffante_D1.list"
+   text	   data	    bss	    dec	    hex	filename
+  39084	    476	   2204	  41764	   a324	prjt_resistance_chauffante_D1.elf
+Finished building: default.size.stdout
+ 
+Finished building: prjt_resistance_chauffante_D1.list
+ 
+20:45:47 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'mesures':
+../Core/Src/main.c:36:28: error: 'valihm' undeclared (first use in this function)
+   36 |   HAL_UART_Receive(&huart2,valihm,3,HAL_MAX_DELAY);
+      |                            ^~~~~~
+../Core/Src/main.c:36:28: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  107 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:107:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  107 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:107:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:108:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  108 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:108:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  108 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:108:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:96:53: warning: unused variable 'tempIHM' [-Wunused-variable]
+   96 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                     ^~~~~~~
+../Core/Src/main.c:96:33: warning: unused variable 'rc' [-Wunused-variable]
+   96 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                 ^~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:47:41 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'mesures':
+../Core/Src/main.c:37:28: error: incompatible type for argument 2 of 'HAL_UART_Receive'
+   37 |   HAL_UART_Receive(&huart2,ihmValue,3,HAL_MAX_DELAY);
+      |                            ^~~~~~~~
+      |                            |
+      |                            float
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:406,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:1:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:724:72: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'float'
+  724 | HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                               ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:108:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:108:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:109:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:109:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:109:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:97:53: warning: unused variable 'tempIHM' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                     ^~~~~~~
+../Core/Src/main.c:97:33: warning: unused variable 'rc' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                 ^~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:48:12 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'mesures':
+../Core/Src/main.c:37:28: error: incompatible type for argument 2 of 'HAL_UART_Receive'
+   37 |   HAL_UART_Receive(&huart2,ihmValue,HAL_MAX_DELAY);
+      |                            ^~~~~~~~
+      |                            |
+      |                            float
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:406,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:1:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:724:72: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'float'
+  724 | HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                               ~~~~~~~~~^~~~~
+In file included from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h:29,
+                 from ../Core/Inc/stm32f4xx_hal_conf.h:274:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h:60:28: warning: conversion from 'unsigned int' to 'uint16_t' {aka 'short unsigned int'} changes value from '4294967295' to '65535' [-Woverflow]
+   60 | #define HAL_MAX_DELAY      0xFFFFFFFFU
+      |                            ^~~~~~~~~~~
+../Core/Src/main.c:37:37: note: in expansion of macro 'HAL_MAX_DELAY'
+   37 |   HAL_UART_Receive(&huart2,ihmValue,HAL_MAX_DELAY);
+      |                                     ^~~~~~~~~~~~~
+../Core/Src/main.c:37:3: error: too few arguments to function 'HAL_UART_Receive'
+   37 |   HAL_UART_Receive(&huart2,ihmValue,HAL_MAX_DELAY);
+      |   ^~~~~~~~~~~~~~~~
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:724:19: note: declared here
+  724 | HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                   ^~~~~~~~~~~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:108:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:108:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:109:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:109:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:109:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:97:53: warning: unused variable 'tempIHM' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                     ^~~~~~~
+../Core/Src/main.c:97:33: warning: unused variable 'rc' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                 ^~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:48:54 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'mesures':
+../Core/Src/main.c:37:29: error: incompatible type for argument 2 of 'HAL_UART_Receive'
+   37 |   HAL_UART_Receive(&huart2, ihmValue, sizeof(ihmValue), HAL_MAX_DELAY);
+      |                             ^~~~~~~~
+      |                             |
+      |                             float
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:406,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:1:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:724:72: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'float'
+  724 | HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                               ~~~~~~~~~^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:108:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:108:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:109:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:109:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:109:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:97:53: warning: unused variable 'tempIHM' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                     ^~~~~~~
+../Core/Src/main.c:97:33: warning: unused variable 'rc' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                 ^~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+20:49:52 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:108:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:108:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:109:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:109:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:109:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:114:33: warning: format '%f' expects argument of type 'double', but argument 3 has type 'uint8_t *' {aka 'unsigned char *'} [-Wformat=]
+  114 |     sprintf(msg, "consigne : %.2f  °C\r\n", ihmValue);
+      |                              ~~~^           ~~~~~~~~
+      |                                 |           |
+      |                                 double      uint8_t * {aka unsigned char *}
+      |                              %.2hhn
+../Core/Src/main.c:97:53: warning: unused variable 'tempIHM' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                     ^~~~~~~
+../Core/Src/main.c:97:33: warning: unused variable 'rc' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                 ^~
+../Core/Src/main.c:96:26: warning: 'duty' is used uninitialized [-Wuninitialized]
+   96 |   htim3.Instance -> CCR4 = duty;
+      |   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+../Core/Src/main.c:95:10: note: 'duty' was declared here
+   95 |   double duty; //variable rapport cyclique pwm
+      |          ^~~~
+arm-none-eabi-gcc -o "prjt_resistance_chauffante_D1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/mohamed/enib/projets/Projet-Instrumentation/Codage/Code_stm32/projet-ips_resistance_chauffante_D_1___/prjt_resistance_chauffante_D1/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="prjt_resistance_chauffante_D1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: prjt_resistance_chauffante_D1.elf has a LOAD segment with RWX permissions
+Finished building target: prjt_resistance_chauffante_D1.elf
+ 
+arm-none-eabi-size  prjt_resistance_chauffante_D1.elf 
+arm-none-eabi-objdump -h -S prjt_resistance_chauffante_D1.elf  > "prjt_resistance_chauffante_D1.list"
+   text	   data	    bss	    dec	    hex	filename
+  39500	    476	   2212	  42188	   a4cc	prjt_resistance_chauffante_D1.elf
+Finished building: default.size.stdout
+ 
+Finished building: prjt_resistance_chauffante_D1.list
+ 
+20:51:06 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-size  prjt_resistance_chauffante_D1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39500	    476	   2212	  42188	   a4cc	prjt_resistance_chauffante_D1.elf
+Finished building: default.size.stdout
+ 
+20:51:46 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-size  prjt_resistance_chauffante_D1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  39500	    476	   2212	  42188	   a4cc	prjt_resistance_chauffante_D1.elf
+Finished building: default.size.stdout
+ 
+20:52:29 **** Incremental Build of configuration Debug for project prjt_resistance_chauffante_D1 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:5: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:2:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+    1 | #include "main.h"
+  +++ |+#include <stdio.h>
+    2 | 
+../Core/Src/main.c:108:5: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  108 |     sprintf(msg, "\033[2J");
+      |     ^~~~~~~
+../Core/Src/main.c:108:5: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:109:52: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:2:1: note: include '<string.h>' or provide a declaration of 'strlen'
+    1 | #include "main.h"
+  +++ |+#include <string.h>
+    2 | 
+../Core/Src/main.c:109:52: warning: incompatible implicit declaration of built-in function 'strlen' [-Wbuiltin-declaration-mismatch]
+  109 |     HAL_UART_Transmit( & huart2, (uint8_t * ) msg, strlen(msg), HAL_MAX_DELAY);
+      |                                                    ^~~~~~
+../Core/Src/main.c:109:52: note: include '<string.h>' or provide a declaration of 'strlen'
+../Core/Src/main.c:114:33: warning: format '%f' expects argument of type 'double', but argument 3 has type 'uint8_t *' {aka 'unsigned char *'} [-Wformat=]
+  114 |     sprintf(msg, "consigne : %.2f  °C\r\n", ihmValue);
+      |                              ~~~^           ~~~~~~~~
+      |                                 |           |
+      |                                 double      uint8_t * {aka unsigned char *}
+      |                              %.2hhn
+../Core/Src/main.c:97:53: warning: unused variable 'tempIHM' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                                     ^~~~~~~
+../Core/Src/main.c:97:33: warning: unused variable 'rc' [-Wunused-variable]
+   97 |   double volt = 0, courant = 0, rc = 0, temper = 0, tempIHM = 45;
+      |                                 ^~
+../Core/Src/main.c:96:26: warning: 'duty' is used uninitialized [-Wuninitialized]
+   96 |   htim3.Instance -> CCR4 = duty;
+      |   ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+../Core/Src/main.c:95:10: note: 'duty' was declared here
+   95 |   double duty; //variable rapport cyclique pwm
+      |          ^~~~
+arm-none-eabi-gcc -o "prjt_resistance_chauffante_D1.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/mohamed/enib/projets/Projet-Instrumentation/Codage/Code_stm32/projet-ips_resistance_chauffante_D_1___/prjt_resistance_chauffante_D1/STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="prjt_resistance_chauffante_D1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: prjt_resistance_chauffante_D1.elf has a LOAD segment with RWX permissions
+Finished building target: prjt_resistance_chauffante_D1.elf
+ 
+arm-none-eabi-size  prjt_resistance_chauffante_D1.elf 
+arm-none-eabi-objdump -h -S prjt_resistance_chauffante_D1.elf  > "prjt_resistance_chauffante_D1.list"
+   text	   data	    bss	    dec	    hex	filename
+  39156	    476	   2212	  41844	   a374	prjt_resistance_chauffante_D1.elf
+Finished building: default.size.stdout
+ 
+Finished building: prjt_resistance_chauffante_D1.list
+ 

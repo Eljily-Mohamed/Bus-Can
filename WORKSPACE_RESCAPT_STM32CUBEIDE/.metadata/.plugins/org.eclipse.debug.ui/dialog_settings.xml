@@ -13,4 +13,11 @@
 		<item key="DIALOG_HEIGHT" value="364"/>
 		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
 	</section>
+	<section name="org.eclipse.debug.ui.SELECT_LAUNCH_CONFIGURATION_DIALOG">
+		<item key="DIALOG_WIDTH" value="314"/>
+		<item key="DIALOG_HEIGHT" value="285"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+	<section name="BreadcrumbItemDropDown">
+	</section>
 </section>

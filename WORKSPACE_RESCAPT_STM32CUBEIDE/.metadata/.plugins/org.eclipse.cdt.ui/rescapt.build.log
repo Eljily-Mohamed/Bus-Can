@@ -1,18 +1,56 @@
-15:14:38 **** Incremental Build of configuration Debug for project rescapt ****
+13:13:53 **** Incremental Build of configuration Debug for project rescapt ****
 make all 
-arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
+arm-none-eabi-gcc "../src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103RBTx -DNUCLEO_F103RB -DDEBUG -DSTM32F103xB -DUSE_HAL_DRIVER -c -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc/Legacy" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/src/vl6180x" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/Utilities/STM32F1xx_Nucleo" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/inc" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/device" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/CMSIS/core" -I"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/HAL_Driver/Inc" -O0 -ffunction-sections -Wall -fcommon -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"src/main.d" -MT"src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "src/main.o"
 ../src/main.c: In function 'main':
 ../src/main.c:74:9: warning: implicit declaration of function 'uart1_Init'; did you mean 'uart3_Init'? [-Wimplicit-function-declaration]
    74 |         uart1_Init();
       |         ^~~~~~~~~~
       |         uart3_Init
-arm-none-eabi-gcc -o "rescapt.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mohamed/enib/s8/RES/RES_CAN/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="rescapt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+../src/main.c:93:10: warning: implicit declaration of function 'lps22hb_whoAmI' [-Wimplicit-function-declaration]
+   93 |     id = lps22hb_whoAmI();
+      |          ^~~~~~~~~~~~~~
+../src/main.c:94:9: warning: implicit declaration of function 'lps22hb_setup' [-Wimplicit-function-declaration]
+   94 |         lps22hb_setup();
+      |         ^~~~~~~~~~~~~
+../src/main.c:95:9: warning: implicit declaration of function 'hts221_activate' [-Wimplicit-function-declaration]
+   95 |         hts221_activate();
+      |         ^~~~~~~~~~~~~~~
+../src/main.c:96:14: warning: implicit declaration of function 'hts221_whoAmI' [-Wimplicit-function-declaration]
+   96 |         id = hts221_whoAmI();
+      |              ^~~~~~~~~~~~~
+../src/main.c:97:9: warning: implicit declaration of function 'hts221_storeCalibration' [-Wimplicit-function-declaration]
+   97 |         hts221_storeCalibration();
+      |         ^~~~~~~~~~~~~~~~~~~~~~~
+../src/main.c: In function 'rangeLuxTempHum_Callback':
+../src/main.c:165:17: warning: implicit declaration of function 'lps22hb_getPressure' [-Wimplicit-function-declaration]
+  165 |     uint8_t i = lps22hb_getPressure(&pres_value);
+      |                 ^~~~~~~~~~~~~~~~~~~
+../src/main.c:170:9: warning: implicit declaration of function 'hts221_getTemperature' [-Wimplicit-function-declaration]
+  170 |     i = hts221_getTemperature(&temp_value);
+      |         ^~~~~~~~~~~~~~~~~~~~~
+../src/main.c:175:9: warning: implicit declaration of function 'hts221_getHumidity' [-Wimplicit-function-declaration]
+  175 |     i = hts221_getHumidity(&humi_value);
+      |         ^~~~~~~~~~~~~~~~~~
+../src/main.c: At top level:
+../src/main.c:33:12: warning: 'mode_auto_on' defined but not used [-Wunused-variable]
+   33 | static int mode_auto_on = 0;
+      |            ^~~~~~~~~~~~
+../src/main.c:32:12: warning: 'mode_auto' defined but not used [-Wunused-variable]
+   32 | static int mode_auto;
+      |            ^~~~~~~~~
+../src/main.c:31:12: warning: 'motor_on' defined but not used [-Wunused-variable]
+   31 | static int motor_on;
+      |            ^~~~~~~~
+../src/main.c:30:12: warning: 'vitesse' defined but not used [-Wunused-variable]
+   30 | static int vitesse;
+      |            ^~~~~~~
+arm-none-eabi-gcc -o "rescapt.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt/LinkerScript.ld" --specs=nosys.specs -Wl,-Map="rescapt.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 /opt/st/stm32cubeide_1.16.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.12.3.rel1.linux64_1.0.200.202406132123/tools/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/bin/ld: warning: rescapt.elf has a LOAD segment with RWX permissions
 Finished building target: rescapt.elf
  
 arm-none-eabi-size  rescapt.elf 
    text	   data	    bss	    dec	    hex	filename
-  24488	     20	   2868	  27376	   6af0	rescapt.elf
+  49724	    368	   3272	  53364	   d074	rescapt.elf
 Finished building: default.size.stdout
  
 arm-none-eabi-objdump -h -S rescapt.elf  > "rescapt.list"
@@ -22,5 +60,5 @@ arm-none-eabi-objcopy  -O binary rescapt.elf  "rescapt.bin"
 Finished building: rescapt.bin
  
 
-15:14:40 Build Finished. 0 errors, 2 warnings. (took 1s.897ms)
+13:13:56 Build Finished. 0 errors, 14 warnings. (took 2s.501ms)
 

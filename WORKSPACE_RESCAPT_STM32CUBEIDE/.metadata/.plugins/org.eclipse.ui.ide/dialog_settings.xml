@@ -29,6 +29,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/home/mohamed/enib/projets/Projet-Instrumentation/Codage/Code_stm32/projet-ips_resistance_chauffante_D_1___"/>
+			<item value="/home/mohamed/enib/projets/Bus-Can/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt"/>
+			<item value="/home/mohamed/enib/s8/IPS/archive/asservissement_de_temperature_d_une_resistance_chauffante-master/Code_stm32"/>
 			<item value="/home/mohamed/enib/s8/IPS/IPS_projet/IPS_D1"/>
 			<item value="/home/kerhoas/WORKSPACE_WEB2/RESEAU_CAPTEURS_/WORKSPACE_RESCAPT_STM32CUBEIDE/rescapt"/>
 		</list>
