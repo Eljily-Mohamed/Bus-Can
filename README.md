@@ -57,7 +57,7 @@ L'interface utilisateur développée en Qt permet :
 ## Détails Supplémentaires
 
 Pour plus d'informations sur le projet et sa documentation, consultez le lien suivant :
-[Documentation complète du projet](#)
+[Documentation complète du projet](https://www.linkedin.com/posts/mohamed-eljily_nouvelle-fin-de-semaine-nouveau-projet-termin%C3%A9-activity-7253391508148563969-rXOX?utm_source=share&utm_medium=member_desktop)
 
 ## Licence
 
